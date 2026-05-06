@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Templates — ResumeForge</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <style>
+        .templates-hero { padding: 60px 0 40px; text-align: center; }
+        .templates-hero h1 { font-size: 48px; margin-bottom: 12px; }
+        .templates-hero p { font-size: 18px; color: #64748b; }
+        .templates-grid {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 32px;
+            padding: 40px 0 80px;
+        }
+        .template-item {
+            background: white;
+            border-radius: 16px;
+            overflow: hidden;
+            border: 1px solid #f1f5f9;
+            transition: all 0.3s;
+        }
+        .template-item:hover {
+            transform: translateY(-4px);
+            box-shadow: 0 20px 40px rgba(0, 0, 0, 0.1);
+        }
+        .template-thumb {
+            aspect-ratio: 3/4;
+            background: #f8fafc;
+            position: relative;
+        }
+        .template-thumb.modern { background: linear-gradient(to right, #2563eb 35%, #f8fafc 35%); }
+        .template-thumb.classic { background: #f8fafc; border-top: 12px solid #475569; }
+        .template-thumb.creative { background: linear-gradient(135deg, #db2777, #f97316); }
+        .template-info { padding: 20px; }
+        .template-info h3 { font-size: 18px; margin-bottom: 4px; }
+        .template-info p { color: #64748b; font-size: 14px; margin-bottom: 12px; }
+        @media (max-width: 768px) { .templates-grid { grid-template-columns: 1fr; } }
+        .template-thumb.minimal { background: #fff; border-left: 6px solid #1e293b; }
+.template-thumb.professional { background: linear-gradient(to bottom, #1e293b 30%, #f8fafc 30%); }
+.template-thumb.elegant {
+    background:
+        linear-gradient(to right, transparent 25%, #c084fc 25%, #c084fc 26%, transparent 26%),
+        #f8fafc;
+}
+    </style>
+</head>
+<body>
+    <nav class="navbar">
+        <div class="container nav-container">
+            <a href="index.html" class="logo">
+                <i class="fa-solid fa-file-lines"></i>
+                <span>ResumeForge</span>
+            </a>
+            <ul class="nav-links">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="templates.html">Templates</a></li>
+            </ul>
+            <a href="builder.html" class="btn btn-primary">Build My Resume</a>
+        </div>
+    </nav>
+
+    <section class="templates-hero">
+        <div class="container">
+            <h1>Pick a Template</h1>
+            <p>Pro designs that get you hired. Pick one and start customizing.</p>
+        </div>
+    </section>
+
+    <section class="container">
+        <div class="templates-grid">
+    <div class="template-item">
+        <div class="template-thumb modern"></div>
+        <div class="template-info">
+            <h3>Modern</h3>
+            <p>Two-column layout with colored sidebar.</p>
+            <a href="builder.html" class="btn btn-primary">Use Template</a>
+        </div>
+    </div>
+    <div class="template-item">
+        <div class="template-thumb classic"></div>
+        <div class="template-info">
+            <h3>Classic</h3>
+            <p>Traditional centered design — ATS-friendly.</p>
+            <a href="builder.html" class="btn btn-primary">Use Template</a>
+        </div>
+    </div>
+    <div class="template-item">
+        <div class="template-thumb creative"></div>
+        <div class="template-info">
+            <h3>Creative</h3>
+            <p>Gradient header, perfect for creatives.</p>
+            <a href="builder.html" class="btn btn-primary">Use Template</a>
+        </div>
+    </div>
+    <div class="template-item">
+        <div class="template-thumb minimal"></div>
+        <div class="template-info">
+            <h3>Minimal</h3>
+            <p>Clean, focused on typography.</p>
+            <a href="builder.html" class="btn btn-primary">Use Template</a>
+        </div>
+    </div>
+    <div class="template-item">
+        <div class="template-thumb professional"></div>
+        <div class="template-info">
+            <h3>Professional</h3>
+            <p>Executive style with dark header.</p>
+            <a href="builder.html" class="btn btn-primary">Use Template</a>
+        </div>
+    </div>
+    <div class="template-item">
+        <div class="template-thumb elegant"></div>
+        <div class="template-info">
+            <h3>Elegant</h3>
+            <p>Serif typography with sidebar contacts.</p>
+            <a href="builder.html" class="btn btn-primary">Use Template</a>
+        </div>
+    </div>
+</div>
+    </section>
+
+    <footer class="footer">
+        <div class="container"><p>© 2025 ResumeForge.</p></div>
+    </footer>
+</body>
+</html>
