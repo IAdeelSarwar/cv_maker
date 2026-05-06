@@ -56,8 +56,8 @@ However, the recommended export method is now **native browser print**, because 
 
 ```text
 cv-maker/
-├── index.html
-├── builder.html
+├── 
+├── builder.html (Open this in the browser)
 ├── templates.html
 ├── css/
 │   ├── style.css
