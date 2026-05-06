@@ -7,6 +7,8 @@ It lets users create a professional CV, edit sections in real time, switch betwe
 This project is intentionally simple and does **not** use complex frameworks such as React, Next.js, Vue, Angular, or backend services.
 
 ---
+<img width="3811" height="2029" alt="image" src="https://github.com/user-attachments/assets/2a682210-20d8-4131-a547-e1a4bc325d71" />
+
 
 ## Features
 
